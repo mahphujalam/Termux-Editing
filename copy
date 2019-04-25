@@ -1,0 +1,36 @@
+#!/data/data/com.termux/files/usr/bin/sh
+g='\033[1;32m'
+y='\033[1;33m'
+s='\033[1;36m'
+echo " "
+echo " "
+echo " "
+echo "$s ********************************** $s"
+echo " "
+echo " "
+echo "$g Copy ho rha hai bash.bashrc DCIM folder me  $g"
+echo " "
+echo " "
+echo "$s ********************************** $s"
+termux-setup-storage
+cp bash.bashrc /sdcard/DCIM
+sleep 10
+echo " "
+echo " "
+echo " "
+echo "$s ********************************** $s"
+echo " "
+echo " "
+echo "$g Bash.bashrc copy ho gya hai DCIM folder me $g"
+echo " "
+sleep 2
+echo "$g===>>> Ab DCIM folder kholo $g"
+echo "$g==>> bash.bashrc ko edit kar kro $g"
+echo "$g=>Ab save karo or Termux open kro $g"
+echo " "
+echo " "
+echo "$s ********************************** $s"
+echo " "
+echo " "
+echo "$y Ab copy-change ye type kar ke change kr sakte ho $y"
+
